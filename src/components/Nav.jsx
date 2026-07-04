@@ -45,7 +45,7 @@ export default function Nav({ active, setActive }) {
           </button>
         ))}
         <a
-          href="/resume.pdf"
+          href={`${import.meta.env.BASE_URL}resume.pdf`}
           download="Vora_Sakib_Resume.pdf"
           className="nav__resume-btn"
         >

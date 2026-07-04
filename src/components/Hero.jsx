@@ -44,7 +44,7 @@ export default function Hero({ setActive }) {
             View Projects
           </button>
           <a
-            href="/resume.pdf"
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
             download="Vora_Sakib_Resume.pdf"
             className="hero__btn-resume"
           >
